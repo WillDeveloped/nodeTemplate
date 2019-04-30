@@ -1,0 +1,35 @@
+{
+  "name": "qualityportalmvp",
+  "version": "3.0.0",
+  "description": "Quality Portal Minimum Viable Product",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "William Glover",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "docxtemplater": "^3.9.9",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.1.1",
+    "https": "^1.0.0",
+    "jszip": "^2.6.1",
+    "method-override": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.20",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
+}

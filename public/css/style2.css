@@ -1,0 +1,88 @@
+body {
+  background: #fff;
+  color: black; }
+
+.navbar {
+  border-bottom: #0004d6 1px solid;
+  
+  margin-bottom:4rem;
+  background: #343a40; 
+  
+   }
+  
+   body, input {font-size:14pt}
+   input, label {vertical-align:middle}
+   .qrcode-text {padding-right:1.7em; margin-right:0}
+   .qrcode-text-btn {display:inline-block; background:url(//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat; height:1em; width:1.7em; margin-left:-1.7em; cursor:pointer}
+   .qrcode-text-btn > input[type=file] {position:absolute; overflow:hidden; width:1px; height:1px; opacity:0}
+
+
+#home-section {
+  background: url("../css/img/background.jpg") no-repeat;
+  min-height: 800px; /* live version */
+  background-attachment: fixed;
+  background-size: cover;
+  
+   }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+
+  
+<!-- #services-section {
+      background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+      url('./img/rings.jpeg');
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height:700px; 
+      height: auto; 
+      min-width: 100%;
+       }
+   
+  
+    
+   
+
+.fa {
+  color: #008ed6;
+  background: #343a40;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+footer h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  width: 100%; }
+
+#explore-section .fa {
+  color: #fff;
+  background: #343a40;
+  padding: 4px;
+  border: radius 5px;
+  font-size: 30px; }
+
+#logo {
+  width: 30%;
+  max-width: 250px; 
+  opacity: 0.8;
+}
+
+
+#loadingMessage {
+  text-align: center;
+  padding: 40px;
+  background-color: #eee;
+}
+#canvas {
+  width: 100%;
+}

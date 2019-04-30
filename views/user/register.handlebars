@@ -1,0 +1,43 @@
+<div class="container text-center">
+ <div class="row justify-content-center">
+    
+    
+    
+    <form action="/login/register" method="post">
+        
+        <div class="card" style="width:18rem;">
+            <div class="card-title lead">Register New User</div>
+        <div class="card-body">
+        
+            <div class="form-group ">
+                <label for="firstName" >First Name</label>
+                <input type="text" class="form-control text-center" name="firstName" value="{{firstName}}"required>
+            </div>
+            <div class="form-group ">
+                <label for="lastName" >Last Name</label>
+                <input type="text" class="form-control text-center" name="lastName" value="{{lastName}}" required>
+            </div>
+            <div class="form-group ">
+                <label for="login">Email Address</label>
+                <input type="email" class="form-control text-center" name="login" value="{{login}}" required>
+            </div>
+            <div class="form-group" >
+                <label for="loginCheck">Verify Email</label>
+                <input type="email" class="form-control text-center" name="loginCheck" required>
+            </div>
+            <div class="form-group ">
+                <label for="password">Password</label>
+                <input type="password" class="form-control text-center" name="password" value={{password}}required>
+            </div>
+            <div class="form-group ">
+                <label for="passwordCheck">Verify Password</label>
+                <input type="password" class="form-control text-center" name="passwordCheck">
+            </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+        </div>
+        
+        
+    </form>
+    </div>
+    </div>
