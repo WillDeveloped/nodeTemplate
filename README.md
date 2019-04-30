@@ -7,8 +7,8 @@ using Express, Handlebars, Mongoose, and SQL(Optional). Anyone is free to downlo
 Before being able to use this complete program, you'll need to adjust the config/keys.js file and update the necessarry fields. Then remove the comments around the functions at the bottom of server.js that call the "connectToSql" and/or "connectToMongo" functions. 
 
 
-#Installation 
+#Installation: 
 npm i
 
-#Start the Program
+#Start the Program:
 node server
